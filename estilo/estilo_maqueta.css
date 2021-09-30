@@ -1,0 +1,91 @@
+@media (min-width:870px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    #contenedor {
+        width: 80%;
+        height: 100vh;
+    
+        margin: 0.5em auto;
+    }
+
+    header {
+        height: 20%;
+        background:#595A4A;
+        border-radius: 1em;
+        margin: 0.5em;
+        padding: 1em;
+        color: white;
+
+    }
+
+    nav {
+        height: 10%;
+        text-align: center;
+        background: #c7ccb9;
+        border-radius: 1em;
+        margin: 0.5em;
+    }
+
+    #contenido{
+        height: 48%;
+    
+    }
+    footer{
+        height: 18%;
+        background: #c7ccb9;
+        border-radius: 1em;
+        margin: 0.5em;
+    }
+    section{
+        height: 97%;
+        width: 68%;
+        background: #c7ccb9;
+        float: left;
+        margin: 0.5em;
+        border-radius: 1em;
+
+    }
+
+    aside{
+        height: 97%;
+        width: 28%;
+        background: #c7ccb9;
+        float: right;
+        margin: 0.5em;
+        border-radius: 1em;
+
+    }
+
+    .articulo{
+        width: 90%;
+        height: 15%;
+        background: #363635;
+        color: white;
+        
+        border-radius: 1em;
+        margin: 1em;
+        padding: 0.5em;
+
+    }
+
+    #contenedor nav ul li{
+        display: inline-block;
+        padding: 1em;
+    }
+
+    #contenedor nav ul li a{
+        text-decoration: none;
+        font-family: fantasy;
+        font-size: 2em;
+        color: #363635;
+
+    }
+
+    #contenedor nav ul li a:hover{
+        color:white; 
+    }
+}
+
